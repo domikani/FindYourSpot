@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 18px;
+}
+
+#viewDiv {
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-family: "Rajdhani", sans-serif;
+
+}
+
+.brand {
+    color: rgb(1, 107, 103);
+}
+
+.nav-link {
+    color: black;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: white;
+    background: rgb(1, 107, 103);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-popup {
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    background: antiquewhite;
+
+}
+
+a.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: linen;
+    border: 1px solid maroon;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+
+}
+
+a.button:hover {
+    text-decoration: none;
+    background-color: maroon;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.dropdown-item.active.show-public, .dropdown-item.show-public:active {
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.dropdown-item.active.show-private, .dropdown-item.show-private:active {
+    cursor: pointer;
+    background-color: crimson;
+    color: black;
+}
+
+.dropdown-item.active.show-both, .dropdown-item.show-both:active {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.legend {
+    line-height: 18px;
+    color: black;
+    padding: 6px 8px;
+    font-family: "Rajdhani", sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    top: 60px;
+    right: 20px;
+    z-index: 500;
+
+}
+
+.legend h5 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.legend img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.legend span{
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+
+}
+
+.instructions{
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.interact{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin : 2px
+}
+
+#legendButton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
